@@ -50,6 +50,7 @@ public class MainActivity extends ActionBarActivity {
                     .replace(R.id.content_frame, new PopularMoviesFragment(), mTitle)
                     .commit();
         }
+
     }
 
     @Override

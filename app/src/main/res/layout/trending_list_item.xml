@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/large_movie_poster" />
+
+            <TextView
+                android:id="@+id/title"
+                android:hint="The Avengers"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:layout_gravity="bottom"
+                android:background="#a9000000"
+                android:paddingTop="8dp"
+                android:layout_marginTop="-20dp"
+                android:gravity="center"
+                />
+
+<!--
+            android:background="#a9000000"
+-->
+
+
+        <TextView
+            android:id="@+id/year"
+            android:hint="2015"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:background="#a9000000"/>
+</LinearLayout>
